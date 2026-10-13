@@ -1,0 +1,1961 @@
+{
+  "checked_at": "2026-10-13T08:24:09.338667+00:00",
+  "method": "ac=list + ac=detail(ids, up to 3) + ac=detail(wd, sampled title); no media playback test",
+  "duplicates": [
+    {
+      "name": "酷点资源",
+      "url": "http://api.kuapi.cc/api.php/provide/vod"
+    },
+    {
+      "name": "闪电",
+      "url": "http://sdzyapi.com/api.php/provide/vod"
+    },
+    {
+      "name": "火狐",
+      "url": "https://hhzyapi.com/api.php/provide/vod"
+    }
+  ],
+  "results": [
+    {
+      "name": "紅牛資源",
+      "url": "http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8",
+      "checked_at": "2026-10-13T08:22:50.392573+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://hongniuzy2.com/api.php/provide/vod/from/hnm3u8?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://hongniuzy2.com/api.php/provide/vod/from/hnm3u8?ac=detail&ids=196939%2C196938%2C196937",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://hongniuzy2.com/api.php/provide/vod/from/hnm3u8?ac=detail&wd=%E5%8D%81%E5%85%AD%E5%A4%9C%E8%86%B3",
+          "items": 1,
+          "keyword": "十六夜膳"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "量子資源",
+      "url": "http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
+      "checked_at": "2026-10-13T08:22:50.393062+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8?ac=detail&ids=158286%2C154299%2C145086",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8?ac=detail&wd=%E7%81%AB%E7%BA%BF%E5%AE%B6%E6%97%8F",
+          "items": 1,
+          "keyword": "火线家族"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "開放電影",
+      "url": "http://vod-demo.onrender.com/pubdovod.php",
+      "checked_at": "2026-10-13T08:25:19.041719+00:00",
+      "checks": {
+        "list": {
+          "http_status": 0,
+          "final_url": "https://vod-demo.onrender.com/pubdovod.php?ac=list",
+          "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.393348+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "https://vod-demo.onrender.com/pubdovod.php?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "优质资源库",
+      "url": "http://api.1080zyku.com/inc/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:19.042204+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://api.1080zyku.com/inc/api.php/provide/vod?ac=list",
+          "error": "XML response",
+          "response_preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss version=\"5.1\"><list page=\"1\" pagecount=\"5309\" pagesize=\"20\" recordcount=\"106169\"><video><last>2026-10-13 16:23:54</last><id>97872</id><ti"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.393720+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://api.1080zyku.com/inc/api.php/provide/vod?ac=list",
+            "error": "XML response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "39影視",
+      "url": "http://39kan.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:19.042510+00:00",
+      "checks": {
+        "list": {
+          "http_status": 523,
+          "final_url": "http://39kan.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 523"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.394114+00:00",
+        "checks": {
+          "list": {
+            "http_status": 523,
+            "final_url": "http://39kan.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 523"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "天堂资源",
+      "url": "http://vipmv.cc/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:19.042812+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://x166.my/",
+          "error": "non-JSON response",
+          "response_preview": "\n<!DOCTYPE html>\n<html>\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta name=\"referrer\" content=\"origin\">\n    <meta name=\"viewport\"\n       "
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.394537+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://x163.my/",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "乐活影视",
+      "url": "http://lehootv.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:19.043106+00:00",
+      "checks": {
+        "list": {
+          "http_status": 0,
+          "final_url": "https://www.baidu.com/api.php/provide/vod?ac=list",
+          "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.394899+00:00",
+        "checks": {
+          "list": {
+            "http_status": 0,
+            "final_url": "https://www.baidu.com/api.php/provide/vod?ac=list",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "唐人街",
+      "url": "http://tangrenjie.tv/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:19.043392+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://tangrenjie.tv/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html><body><a id='baidu'></a><script>\r\nfunction _0x4ed3(_0x112675,_0x105afa){_0x112675=_0x112675-0xc2;var _0x3c0d06=_0x3c0d();var _0x4ed3d9=_0x3c0d06[_0x112675];return _0x4ed3d9;}"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.395660+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://tangrenjie.tv/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "酷点资源",
+      "url": "http://api.kuapi.cc/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:19.043611+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "http://api.kuapi.cc/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.400917+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "http://api.kuapi.cc/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "卧龙资源",
+      "url": "http://collect.wolongzyw.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:19.044148+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://collect.wolongzyw.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<!-- 127778770585 -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"ro"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:50.404635+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://collect.wolongzyw.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "酷点资源",
+      "url": "http://kudian10.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:25.694426+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://kudian10.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:55.272135+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://kudian10.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "唐人街",
+      "url": "http://tangrenjie.tv/api.php/provide/vod/at/xm",
+      "checked_at": "2026-10-13T08:25:25.775006+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://tangrenjie.tv/api.php/provide/vod/at/xm?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html><body><a id='baidu'></a><script>\r\nfunction _0x4ed3(_0x112675,_0x105afa){_0x112675=_0x112675-0xc2;var _0x3c0d06=_0x3c0d();var _0x4ed3d9=_0x3c0d06[_0x112675];return _0x4ed3d9;}"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:57.522631+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://tangrenjie.tv/api.php/provide/vod/at/xm?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "森林资源",
+      "url": "http://slapibf.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:27.913147+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://slapibf.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:57.546142+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://slapibf.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "影库资源网",
+      "url": "http://api.ykapi.net/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:30.663993+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "http://api.ykapi.net/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:22:58.946599+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "http://api.ykapi.net/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "快车资源",
+      "url": "http://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8",
+      "checked_at": "2026-10-13T08:25:31.249288+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:00.786269+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "探探资源",
+      "url": "http://apittzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:32.120336+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://apittzy.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:02.676464+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://apittzy.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "閃電資源",
+      "url": "http://sdzyapi.com/api.php/provide/vod/from/sdm3u8",
+      "checked_at": "2026-10-13T08:25:32.142798+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://sdzyapi.com/api.php/provide/vod/from/sdm3u8?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "http://sdzyapi.com/api.php/provide/vod/from/sdm3u8?ac=detail&ids=135499%2C136644%2C31493",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "http://sdzyapi.com/api.php/provide/vod/from/sdm3u8?ac=detail&wd=%E5%A4%A7%E5%93%A5",
+          "error": "non-JSON response",
+          "response_preview": "暂不支持搜索",
+          "keyword": "大哥"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "search_unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:02.677254+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://sdzyapi.com/api.php/provide/vod/from/sdm3u8?ac=list",
+            "items": 20
+          },
+          "detail": {
+            "http_status": 200,
+            "final_url": "http://sdzyapi.com/api.php/provide/vod/from/sdm3u8?ac=detail&ids=135499%2C136644%2C31493",
+            "items": 3
+          },
+          "search": {
+            "http_status": 200,
+            "final_url": "http://sdzyapi.com/api.php/provide/vod/from/sdm3u8?ac=detail&wd=%E5%A4%A7%E5%93%A5%E5%B0%8F%E5%8A%A9",
+            "error": "non-JSON response",
+            "keyword": "大哥小助"
+          }
+        },
+        "detail_sample_count": 3,
+        "status": "search_unverified"
+      }
+    },
+    {
+      "name": "金鹰资源",
+      "url": "http://jyzyapi.com/provide/vod/from/jinyingm3u8",
+      "checked_at": "2026-10-13T08:23:02.689247+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://jyzyapi.com/provide/vod/from/jinyingm3u8?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "http://jyzyapi.com/provide/vod/from/jinyingm3u8?ac=detail&ids=158416%2C117238%2C161020",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "http://jyzyapi.com/provide/vod/from/jinyingm3u8?ac=detail&wd=%E5%AF%84%E7%94%9F%E4%B9%8B%E5%BF%83",
+          "items": 1,
+          "keyword": "寄生之心"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "光速资源",
+      "url": "http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8",
+      "checked_at": "2026-10-13T08:23:02.713009+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8?ac=detail&ids=218460%2C221039%2C177549",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8?ac=detail&wd=%E5%AF%84%E7%94%9F%E4%B9%8B%E5%BF%83",
+          "items": 1,
+          "keyword": "寄生之心"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "奥斯卡资源网",
+      "url": "http://aosikazy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:33.476708+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://aosikazy.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:02.715886+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://aosikazy.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "老鸭资源采集",
+      "url": "http://api.apilyzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:36.594619+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "http://api.apilyzy.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:04.349640+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "http://api.apilyzy.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "U酷资源",
+      "url": "http://api.ukuapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:04.483740+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=detail&ids=74162%2C74161%2C74160",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=detail&wd=%E7%BB%9F%E9%A2%86%E5%A4%A7%E4%BA%BA",
+          "items": 1,
+          "keyword": "统领大人"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "北斗星资源",
+      "url": "http://m3u8.bdxzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:37.664542+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "http://m3u8.bdxzyapi.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:08.179029+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "http://m3u8.bdxzyapi.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "樱花资源网",
+      "url": "http://m3u8.apiyhzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:38.822461+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://m3u8.apiyhzy.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:08.706749+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://m3u8.apiyhzy.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "闪电资源",
+      "url": "http://sdzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:38.969093+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://sdzyapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "http://sdzyapi.com/api.php/provide/vod?ac=detail&ids=135499%2C136644%2C31493",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "http://sdzyapi.com/api.php/provide/vod?ac=detail&wd=%E5%A4%A7%E5%93%A5",
+          "error": "non-JSON response",
+          "response_preview": "暂不支持搜索",
+          "keyword": "大哥"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "search_unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:09.082446+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://sdzyapi.com/api.php/provide/vod?ac=list",
+            "items": 20
+          },
+          "detail": {
+            "http_status": 200,
+            "final_url": "http://sdzyapi.com/api.php/provide/vod?ac=detail&ids=135499%2C136644%2C31493",
+            "items": 3
+          },
+          "search": {
+            "http_status": 200,
+            "final_url": "http://sdzyapi.com/api.php/provide/vod?ac=detail&wd=%E5%A4%A7%E5%93%A5%E5%B0%8F%E5%8A%A9",
+            "error": "non-JSON response",
+            "keyword": "大哥小助"
+          }
+        },
+        "detail_sample_count": 3,
+        "status": "search_unverified"
+      }
+    },
+    {
+      "name": "飞速资源",
+      "url": "http://feisuzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:39.477548+00:00",
+      "checks": {
+        "list": {
+          "http_status": 403,
+          "final_url": "http://feisuzy.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 403"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:09.618889+00:00",
+        "checks": {
+          "list": {
+            "http_status": 403,
+            "final_url": "http://feisuzy.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 403"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "快播资源",
+      "url": "http://www.kuaibozy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:40.403450+00:00",
+      "checks": {
+        "list": {
+          "http_status": 0,
+          "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=kuaibozy.com",
+          "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:10.398582+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=kuaibozy.com",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "百度资源",
+      "url": "http://api.apibdzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:40.513301+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://api.apibdzy.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:12.751323+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://api.apibdzy.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "艾旦影视",
+      "url": "http://lovedan.net/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:12.910313+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://lovedan.net/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "http://lovedan.net/api.php/provide/vod?ac=detail&ids=208378%2C208331%2C205308",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "http://lovedan.net/api.php/provide/vod?ac=detail&wd=%E5%8D%B3%E5%BD%95%E6%97%B6%E5%88%BB",
+          "items": 4,
+          "keyword": "即录时刻"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "飘花电影",
+      "url": "http://www.zzrhgg.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:40.725368+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://www.zzrhgg.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html><body><a id='baidu'></a><script>\r\nfunction _0x54eb(_0x4854d1,_0x18c72e){_0x4854d1=_0x4854d1-0x18f;var _0x5347e1=_0x5347();var _0x54eb64=_0x5347e1[_0x4854d1];return _0x54eb64;"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:16.032959+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://www.zzrhgg.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "网民电影",
+      "url": "http://prinevillesda.org/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:43.903774+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://prinevillesda.org/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html><html dir=\"ltr\">\r\n    <head><link rel=\"icon\" href=\"data:;base64,iVBORw0KGgo=\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:16.342004+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://prinevillesda.org/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "丝袜资源",
+      "url": "http://siwazyw.cc/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:44.959900+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://siwazyw.cc/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Redirecting...</title><style>#loading{position:"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:16.705760+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://siwazyw.cc/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "天空資源",
+      "url": "http://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8",
+      "checked_at": "2026-10-13T08:25:46.027242+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://202608.urldance.com/8d/?tiankongapi.com#others",
+          "error": "non-JSON response",
+          "response_preview": "<!DOCTYPE html>\r\n<html lang=\"x-default\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>welcome</title>"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:18.825170+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://202608.urldance.com/8d/?tiankongapi.com#others",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "海外看資源",
+      "url": "http://haiwaikan.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:46.478471+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://haiwaikan.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Redirecting...</title><style>#loading{position:"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:19.807717+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "http://haiwaikan.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "海外看",
+      "url": "https://haiwaikan.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:48.173310+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://haiwaikan.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:21.738512+00:00",
+        "checks": {
+          "list": {
+            "http_status": 0,
+            "final_url": "https://haiwaikan.com/api.php/provide/vod?ac=list",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "360",
+      "url": "https://360zy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:51.051347+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://360zy.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://360zy.com/api.php/provide/vod?ac=detail&ids=107700%2C107699%2C107698",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://360zy.com/api.php/provide/vod?ac=detail&wd=%E9%97%AF%E7%9A%87",
+          "items": 3,
+          "keyword": "闯皇"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:23.007839+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://360zy.com/api.php/provide/vod?ac=list",
+            "items": 20
+          },
+          "detail": {
+            "http_status": 0,
+            "final_url": "https://360zy.com/api.php/provide/vod?ac=detail&ids=107700%2C107699%2C107698",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "detail_sample_count": 0,
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "黑木耳",
+      "url": "https://www.heimuer.tv/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:51.129988+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://www.heimuer.tv/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:23.063177+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "https://www.heimuer.tv/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "刺桐",
+      "url": "http://ys9.cttv.vip/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:52.218553+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "http://ys9.cttv.vip/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:23.646568+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "http://ys9.cttv.vip/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "官网",
+      "url": "http://gwcms.cttv.vip/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:52.364380+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "http://gwcms.cttv.vip/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:23.816577+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "http://gwcms.cttv.vip/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "业余",
+      "url": "https://yyff.540734621.xyz/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:53.046920+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://yyff.540734621.xyz/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:23.830769+00:00",
+        "checks": {
+          "list": {
+            "http_status": 0,
+            "final_url": "https://yyff.540734621.xyz/api.php/provide/vod?ac=list",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "华为吧",
+      "url": "https://hw8.live/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:53.203511+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://hw8.live/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>hw8.live</title>\n<meta name=\"description\""
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:27.560444+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://hw8.live/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "小黄人",
+      "url": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:55.379012+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:28.588584+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "牛牛",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:56.551803+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=detail&ids=130214%2C131355%2C31493",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=detail&wd=%E5%A4%A7%E5%93%A5",
+          "error": "non-JSON response",
+          "response_preview": "暂不支持搜索",
+          "keyword": "大哥"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "search_unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:28.753378+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=list",
+            "items": 20
+          },
+          "detail": {
+            "http_status": 200,
+            "final_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=detail&ids=130214%2C131355%2C31493",
+            "items": 3
+          },
+          "search": {
+            "http_status": 0,
+            "final_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=detail&wd=%E5%A4%A7%E5%93%A5%E5%B0%8F%E5%8A%A9",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout",
+            "keyword": "大哥小助"
+          }
+        },
+        "detail_sample_count": 3,
+        "status": "search_unverified"
+      }
+    },
+    {
+      "name": "丫丫",
+      "url": "https://cj.yayazy.net/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:56.853817+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://cj.yayazy.net/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://cj.yayazy.net/api.php/provide/vod?ac=detail&ids=129330%2C130471%2C31493",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://cj.yayazy.net/api.php/provide/vod?ac=detail&wd=%E5%A4%A7%E5%93%A5",
+          "error": "non-JSON response",
+          "response_preview": "暂不支持搜索",
+          "keyword": "大哥"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "search_unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:29.066411+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://cj.yayazy.net/api.php/provide/vod?ac=list",
+            "items": 20
+          },
+          "detail": {
+            "http_status": 200,
+            "final_url": "https://cj.yayazy.net/api.php/provide/vod?ac=detail&ids=129330%2C130471%2C31493",
+            "items": 3
+          },
+          "search": {
+            "http_status": 200,
+            "final_url": "https://cj.yayazy.net/api.php/provide/vod?ac=detail&wd=%E5%A4%A7%E5%93%A5%E5%B0%8F%E5%8A%A9",
+            "error": "non-JSON response",
+            "keyword": "大哥小助"
+          }
+        },
+        "detail_sample_count": 3,
+        "status": "search_unverified"
+      }
+    },
+    {
+      "name": "U酷",
+      "url": "https://api.ukuapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:29.514859+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=detail&ids=74162%2C74161%2C74160",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=detail&wd=%E7%BB%9F%E9%A2%86%E5%A4%A7%E4%BA%BA",
+          "items": 1,
+          "keyword": "统领大人"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "豪华",
+      "url": "https://hhzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:30.843941+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://hhzyapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://hhzyapi.com/api.php/provide/vod?ac=detail&ids=180978%2C180977%2C180976",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://hhzyapi.com/api.php/provide/vod?ac=detail&wd=%E5%8D%81%E5%85%AD%E5%A4%9C%E8%86%B3",
+          "items": 1,
+          "keyword": "十六夜膳"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "极速",
+      "url": "https://jszyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:31.354294+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://jszyapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://jszyapi.com/api.php/provide/vod?ac=detail&ids=154111%2C153332%2C105352",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://jszyapi.com/api.php/provide/vod?ac=detail&wd=%E9%BB%91%E6%9A%97%E5%8F%AC%E5%94%A4",
+          "items": 1,
+          "keyword": "黑暗召唤"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "四九",
+      "url": "https://49zyw.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:25:58.332168+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://49zyw.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:31.414192+00:00",
+        "checks": {
+          "list": {
+            "http_status": 0,
+            "final_url": "https://49zyw.com/api.php/provide/vod?ac=list",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "索尼",
+      "url": "https://suoniapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:00.247084+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://suoniapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://suoniapi.com/api.php/provide/vod?ac=detail&ids=148413%2C82525%2C31504",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://suoniapi.com/api.php/provide/vod?ac=detail&wd=%E4%B8%80%E4%B8%87",
+          "error": "non-JSON response",
+          "response_preview": "暂不支持搜索",
+          "keyword": "一万"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "search_unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:31.747930+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://suoniapi.com/api.php/provide/vod?ac=list",
+            "items": 20
+          },
+          "detail": {
+            "http_status": 200,
+            "final_url": "https://suoniapi.com/api.php/provide/vod?ac=detail&ids=148413%2C82525%2C31504",
+            "items": 3
+          },
+          "search": {
+            "http_status": 200,
+            "final_url": "https://suoniapi.com/api.php/provide/vod?ac=detail&wd=%E4%B8%80%E4%B8%87%E5%85%83%E8%88%9E",
+            "error": "non-JSON response",
+            "keyword": "一万元舞"
+          }
+        },
+        "detail_sample_count": 3,
+        "status": "search_unverified"
+      }
+    },
+    {
+      "name": "ikun",
+      "url": "https://ikunzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:00.919034+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://ikunzyapi.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this site.</p>\n      </center>\n    <"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:33.093738+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://ikunzyapi.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "非凡",
+      "url": "http://cj.ffzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:36.491684+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://cj.ffzyapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "http://cj.ffzyapi.com/api.php/provide/vod?ac=detail&ids=99675%2C99221%2C98541",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "http://cj.ffzyapi.com/api.php/provide/vod?ac=detail&wd=%E6%88%91%E4%B8%8D%E5%BD%93%E5%A6%BB",
+          "items": 1,
+          "keyword": "我不当妻"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "量子",
+      "url": "https://cj.lziapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:36.890095+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://cj.lziapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://cj.lziapi.com/api.php/provide/vod?ac=detail&ids=158286%2C154299%2C145086",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://cj.lziapi.com/api.php/provide/vod?ac=detail&wd=%E7%81%AB%E7%BA%BF%E5%AE%B6%E6%97%8F",
+          "items": 1,
+          "keyword": "火线家族"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "暴风",
+      "url": "https://bfzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:03.131079+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://bfzyapi.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this site.</p>\n      </center>\n    <"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:37.886948+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://bfzyapi.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "红牛",
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:38.443911+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://www.hongniuzy2.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://www.hongniuzy2.com/api.php/provide/vod?ac=detail&ids=196939%2C196938%2C196937",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://www.hongniuzy2.com/api.php/provide/vod?ac=detail&wd=%E5%8D%81%E5%85%AD%E5%A4%9C%E8%86%B3",
+          "items": 1,
+          "keyword": "十六夜膳"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "飞速",
+      "url": "https://www.feisuzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:03.529369+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://www.feisuzyapi.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander?ac=list\"}</script></head></html>"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:42.134199+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://www.feisuzyapi.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "快看",
+      "url": "https://www.kuaikan-api.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:03.865116+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://www.kuaikan-api.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:42.751262+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "https://www.kuaikan-api.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "熊掌",
+      "url": "https://xzcjz.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:06.957581+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://xzcjz.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:45.232701+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "https://xzcjz.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "快车",
+      "url": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8",
+      "checked_at": "2026-10-13T08:26:08.137147+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this site.</p>\n      </center>\n    <"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:45.364739+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "樱花",
+      "url": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:08.314577+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://m3u8.apiyhzy.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this site.</p>\n      </center>\n    <"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:46.322683+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://m3u8.apiyhzy.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "卧龙",
+      "url": "https://collect.wolongzyw.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:09.302809+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://collect.wolongzyw.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<!-- 130128327480 -->\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"ro"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:46.342327+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://collect.wolongzyw.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "飘花",
+      "url": "http://www.ahjiuman.com/api.php/provide/vod/at/json",
+      "checked_at": "2026-10-13T08:26:10.673181+00:00",
+      "checks": {
+        "list": {
+          "http_status": 404,
+          "final_url": "http://www.ahjiuman.com/api.php/provide/vod/at/json?ac=list",
+          "error": "HTTP 404"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:46.386756+00:00",
+        "checks": {
+          "list": {
+            "http_status": 404,
+            "final_url": "http://www.ahjiuman.com/api.php/provide/vod/at/json?ac=list",
+            "error": "HTTP 404"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "天翼",
+      "url": "https://www.911ysw.top/tianyi.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:11.759170+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://www.911ysw.top/tianyi.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this site.</p>\n      </center>\n    <"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:47.888392+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://www.911ysw.top/tianyi.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "虎牙",
+      "url": "https://www.huyaapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:50.023252+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://www.huyaapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://www.huyaapi.com/api.php/provide/vod?ac=detail&ids=159173%2C158414%2C158378",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://www.huyaapi.com/api.php/provide/vod?ac=detail&wd=%E5%8D%81%E5%85%AD%E5%A4%9C%E8%86%B3",
+          "items": 1,
+          "keyword": "十六夜膳"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "百度",
+      "url": "https://api.apibdzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:11.895898+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+          "error": "non-JSON response",
+          "response_preview": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this site.</p>\n      </center>\n    <"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:50.340335+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+            "error": "non-JSON response"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "飘零",
+      "url": "https://p2100.net/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:51.028290+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://p2100.net/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://p2100.net/api.php/provide/vod?ac=detail&ids=99547%2C100006%2C99988",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://p2100.net/api.php/provide/vod?ac=detail&wd=%E8%BD%AC%E7%94%9F%E4%BA%86%E7%9A%84",
+          "items": 1,
+          "keyword": "转生了的"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "无尽",
+      "url": "https://api.wujinapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:12.275035+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://api.wujinapi.com/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 0,
+          "final_url": "https://api.wujinapi.com/api.php/provide/vod?ac=detail&ids=172879%2C172878%2C172877",
+          "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+        }
+      },
+      "detail_sample_count": 0,
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:51.132762+00:00",
+        "checks": {
+          "list": {
+            "http_status": 200,
+            "final_url": "https://api.wujinapi.com/api.php/provide/vod?ac=list",
+            "items": 20
+          },
+          "detail": {
+            "http_status": 0,
+            "final_url": "https://api.wujinapi.com/api.php/provide/vod?ac=detail&ids=172879%2C172878%2C172877",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "detail_sample_count": 0,
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "速博",
+      "url": "https://subocaiji.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:12.621428+00:00",
+      "checks": {
+        "list": {
+          "http_status": 500,
+          "final_url": "https://subocaiji.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 500"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:51.797713+00:00",
+        "checks": {
+          "list": {
+            "http_status": 500,
+            "final_url": "https://subocaiji.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 500"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "魔都",
+      "url": "https://caiji.moduapi.cc/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:13.089651+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://caiji.moduapi.cc/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://caiji.moduapi.cc/api.php/provide/vod?ac=detail&ids=74206%2C90426%2C8821",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://caiji.moduapi.cc/api.php/provide/vod?ac=detail&wd=%E8%B1%86%E8%85%90",
+          "items": 5,
+          "keyword": "豆腐"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:52.014308+00:00",
+        "checks": {
+          "list": {
+            "http_status": 0,
+            "final_url": "https://caiji.moduapi.cc/api.php/provide/vod?ac=list",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "最大",
+      "url": "http://zuidazy.me/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:23:52.321515+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "http://zuidazy.me/api.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "http://zuidazy.me/api.php/provide/vod?ac=detail&ids=129304%2C130445%2C31493",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "http://zuidazy.me/api.php/provide/vod?ac=detail&wd=%E5%A4%A7%E5%93%A5%E5%B0%8F%E5%8A%A9",
+          "items": 1,
+          "keyword": "大哥小助"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified"
+    },
+    {
+      "name": "奇虎",
+      "url": "https://caiji.qhzyapi.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:13.825229+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://caiji.qhzyapi.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:52.373335+00:00",
+        "checks": {
+          "list": {
+            "http_status": 0,
+            "final_url": "https://caiji.qhzyapi.com/api.php/provide/vod?ac=list",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "新浪",
+      "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:13.955375+00:00",
+      "checks": {
+        "list": {
+          "http_status": 200,
+          "final_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=list",
+          "items": 20
+        },
+        "detail": {
+          "http_status": 200,
+          "final_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=detail&ids=171770%2C236970%2C236969",
+          "items": 3
+        },
+        "search": {
+          "http_status": 200,
+          "final_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=detail&wd=%E6%81%8B%E7%88%B1",
+          "items": 20,
+          "keyword": "恋爱"
+        }
+      },
+      "detail_sample_count": 3,
+      "status": "verified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:53.519039+00:00",
+        "checks": {
+          "list": {
+            "http_status": 0,
+            "final_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=list",
+            "error": "curl: (28) Proxy CONNECT aborted due to timeout"
+          }
+        },
+        "status": "unverified"
+      }
+    },
+    {
+      "name": "快云",
+      "url": "https://www.kuaiyunzy.com/api.php/provide/vod",
+      "checked_at": "2026-10-13T08:26:15.493783+00:00",
+      "checks": {
+        "list": {
+          "http_status": 502,
+          "final_url": "https://www.kuaiyunzy.com/api.php/provide/vod?ac=list",
+          "error": "HTTP 502"
+        }
+      },
+      "status": "unverified",
+      "previous_attempt": {
+        "checked_at": "2026-10-13T08:23:53.772664+00:00",
+        "checks": {
+          "list": {
+            "http_status": 502,
+            "final_url": "https://www.kuaiyunzy.com/api.php/provide/vod?ac=list",
+            "error": "HTTP 502"
+          }
+        },
+        "status": "unverified"
+      }
+    }
+  ]
+}
