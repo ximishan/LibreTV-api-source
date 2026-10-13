@@ -1,17 +1,19 @@
-- [紅牛資源](http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8)
-- [量子資源](http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8)
-- [金鹰资源](http://jyzyapi.com/provide/vod/from/jinyingm3u8)
-- [光速资源](http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8)
-- [U酷](https://api.ukuapi.com/api.php/provide/vod)
-- [艾旦影视](http://lovedan.net/api.php/provide/vod)
-- [360](https://360zy.com/api.php/provide/vod)
-- [豪华](https://hhzyapi.com/api.php/provide/vod)
-- [极速](https://jszyapi.com/api.php/provide/vod)
-- [非凡](http://cj.ffzyapi.com/api.php/provide/vod)
-- [量子](https://cj.lziapi.com/api.php/provide/vod)
-- [红牛](https://www.hongniuzy2.com/api.php/provide/vod)
-- [虎牙](https://www.huyaapi.com/api.php/provide/vod)
-- [飘零](https://p2100.net/api.php/provide/vod)
-- [魔都](https://caiji.moduapi.cc/api.php/provide/vod)
-- [最大](http://zuidazy.me/api.php/provide/vod)
-- [新浪](https://api.xinlangapi.com/xinlangapi.php/provide/vod)
+| 接口名称 | API 地址 |
+| --- | --- |
+| 紅牛資源 | http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8 |
+| 量子資源 | http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8 |
+| 金鹰资源 | http://jyzyapi.com/provide/vod/from/jinyingm3u8 |
+| 光速资源 | http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8 |
+| U酷 | https://api.ukuapi.com/api.php/provide/vod |
+| 艾旦影视 | http://lovedan.net/api.php/provide/vod |
+| 360 | https://360zy.com/api.php/provide/vod |
+| 豪华 | https://hhzyapi.com/api.php/provide/vod |
+| 极速 | https://jszyapi.com/api.php/provide/vod |
+| 非凡 | http://cj.ffzyapi.com/api.php/provide/vod |
+| 量子 | https://cj.lziapi.com/api.php/provide/vod |
+| 红牛 | https://www.hongniuzy2.com/api.php/provide/vod |
+| 虎牙 | https://www.huyaapi.com/api.php/provide/vod |
+| 飘零 | https://p2100.net/api.php/provide/vod |
+| 魔都 | https://caiji.moduapi.cc/api.php/provide/vod |
+| 最大 | http://zuidazy.me/api.php/provide/vod |
+| 新浪 | https://api.xinlangapi.com/xinlangapi.php/provide/vod |
